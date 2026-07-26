@@ -1,8 +1,26 @@
 aid: endeavor-catalyst-i
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endeavor-catalyst-i.png
 name: Endeavor Catalyst I
-description: Endeavor Catalyst I is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Endeavor Catalyst is the rules-based, co-investment fund of Endeavor Global, the nonprofit that
+  supports high-impact entrepreneurs worldwide. The fund invests exclusively in companies led by
+  Endeavor Entrepreneurs across Series A through D+ rounds, recycling proceeds back into Endeavor's
+  mission of building entrepreneurial ecosystems in emerging and underserved markets. Endeavor
+  Catalyst I is the first vintage in this fund family; across all vintages the program manages
+  $540M+ in assets with 405+ active investments spanning 35+ markets, including 71 companies valued
+  at $1B+ and 37 realized exits. This profile tracks the firm as a venture-capital entity in the
+  API Evangelist network; it publishes no public API.
 url: https://raw.githubusercontent.com/api-evangelist/endeavor-catalyst-i/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Capital
+- Investor
+- Private Equity
+- Emerging Markets
+- Entrepreneurship
+- Fund
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/endeavor-catalyst-i-domain-security.yml
 - type: Website
   url: https://endeavor.org
+- type: Portfolio
+  url: https://endeavor.org/catalyst/
+- type: Blog
+  url: https://endeavor.org/stories/category/global-venture-capital/
+- type: Support
+  url: https://endeavor.org/about-us/contact/
+- type: PrivacyPolicy
+  url: https://endeavor.org/privacy-policy/
+- type: TermsOfService
+  url: https://endeavor.org/terms-conditions/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
