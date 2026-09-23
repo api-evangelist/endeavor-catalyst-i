@@ -1,0 +1,27 @@
+# Front Door AI Index — endeavor-catalyst-i — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: endeavor-catalyst-i
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: endeavor.org
+  final_host: endeavor.org
+  ownership: own
+  owner: endeavor-catalyst-i
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 1.68
+  words: 1192
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 2
+    predictive: 1
+    smart: 1
