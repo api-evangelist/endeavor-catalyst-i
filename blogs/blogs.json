@@ -5,7 +5,7 @@
       "source": "https://endeavor.org/stories/category/global-venture-capital/feed/",
       "feed_url": "https://endeavor.org/stories/category/global-venture-capital/feed/",
       "title": "",
-      "saved": 2,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -16,6 +16,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://endeavor.org/stories/category/global-venture-capital/blog/feed/",
+      "feed_url": "https://endeavor.org/stories/category/global-venture-capital/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://endeavor.org/catalyst/feed/",
       "feed_url": "https://endeavor.org/catalyst/feed/",
       "title": "",
@@ -23,6 +30,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 20,
+  "fetched": "2026-10-17T14:53:57Z"
 }
